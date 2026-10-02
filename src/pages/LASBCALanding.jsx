@@ -36,17 +36,17 @@ export default function LASBCALanding() {
         </motion.div>
         
         <div className="grid md:grid-cols-3 gap-8">
-          <motion.div initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} viewport={{once:true}} className="bg-white p-8 rounded-2xl shadow-xl shadow-orange-900/5 border-t-4 border-amber-500">
+          <motion.div initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} viewport={{once:true}} className="bg-white p-8 rounded-2xl shadow-xl shadow-orange-900/5">
             <ClipboardCheck className="w-12 h-12 text-amber-500 mb-6" />
             <h3 className="text-xl font-bold text-navy mb-3">1. Planning Permit</h3>
             <p className="text-gray-600">Submit architectural drawings to LASPPPA for zoning and planning approval.</p>
           </motion.div>
-          <motion.div initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{delay:0.1}} viewport={{once:true}} className="bg-white p-8 rounded-2xl shadow-xl shadow-orange-900/5 border-t-4 border-orange-500">
+          <motion.div initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{delay:0.1}} viewport={{once:true}} className="bg-white p-8 rounded-2xl shadow-xl shadow-orange-900/5">
             <ShieldCheck className="w-12 h-12 text-orange-500 mb-6" />
             <h3 className="text-xl font-bold text-navy mb-3">2. Authorization</h3>
             <p className="text-gray-600">Obtain structural approval and site authorization from LASBCA.</p>
           </motion.div>
-          <motion.div initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{delay:0.2}} viewport={{once:true}} className="bg-white p-8 rounded-2xl shadow-xl shadow-orange-900/5 border-t-4 border-orange-700">
+          <motion.div initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{delay:0.2}} viewport={{once:true}} className="bg-white p-8 rounded-2xl shadow-xl shadow-orange-900/5">
             <HardHat className="w-12 h-12 text-orange-700 mb-6" />
             <h3 className="text-xl font-bold text-navy mb-3">3. Stage Certification</h3>
             <p className="text-gray-600">Ongoing inspections at key construction stages to ensure compliance.</p>

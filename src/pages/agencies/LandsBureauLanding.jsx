@@ -87,7 +87,7 @@ const LandsBureauLanding = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.2 }}
-                className="bg-light-gray p-8 rounded-2xl shadow-sm border-t-4 border-yellow-500 hover:shadow-md transition"
+                className="bg-light-gray p-8 rounded-2xl shadow-sm hover:shadow-md transition"
               >
                 <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-6 text-yellow-600">
                   <service.icon className="w-8 h-8" />
@@ -146,7 +146,7 @@ const LandsBureauLanding = () => {
             whileInView="visible"
             viewport={{ once: true }}
             variants={fadeInUp}
-            className="max-w-2xl mx-auto bg-white p-12 rounded-3xl shadow-lg border-t-4 border-yellow-500"
+            className="max-w-2xl mx-auto bg-white p-12 rounded-3xl shadow-lg"
           >
             <h2 className="text-3xl font-epilogue font-bold text-navy mb-4">Need Assistance?</h2>
             <p className="text-gray-600 mb-8">Contact the Lands Bureau for queries related to land administration in Lagos.</p>

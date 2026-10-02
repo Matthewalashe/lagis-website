@@ -28,17 +28,17 @@ export default function MISTDrones() {
       {/* Content sections */}
       <section className="py-16 container mx-auto px-6">
         <motion.div initial={{opacity:0}} whileInView={{opacity:1}} viewport={{once:true}} className="grid md:grid-cols-3 gap-8">
-          <div className="bg-white p-8 rounded-2xl shadow-xl shadow-blue-900/5 border-t-4 border-blue-500">
+          <div className="bg-white p-8 rounded-2xl shadow-xl shadow-blue-900/5">
             <Camera className="w-12 h-12 text-blue-500 mb-4" />
             <h3 className="text-xl font-bold text-navy mb-2">Aerial Mapping</h3>
             <p className="text-gray-600">High-resolution drone mapping services for urban planning and real estate.</p>
           </div>
-          <div className="bg-white p-8 rounded-2xl shadow-xl shadow-cyan-900/5 border-t-4 border-cyan-500">
+          <div className="bg-white p-8 rounded-2xl shadow-xl shadow-cyan-900/5">
             <Map className="w-12 h-12 text-cyan-500 mb-4" />
             <h3 className="text-xl font-bold text-navy mb-2">Topographic Surveys</h3>
             <p className="text-gray-600">Precise elevation data and contours for infrastructure development.</p>
           </div>
-          <div className="bg-white p-8 rounded-2xl shadow-xl shadow-blue-900/5 border-t-4 border-blue-800">
+          <div className="bg-white p-8 rounded-2xl shadow-xl shadow-blue-900/5">
             <CloudRain className="w-12 h-12 text-blue-800 mb-4" />
             <h3 className="text-xl font-bold text-navy mb-2">Environmental Monitoring</h3>
             <p className="text-gray-600">Tracking vegetation, waterways, and ecological changes from above.</p>

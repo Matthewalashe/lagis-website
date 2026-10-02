@@ -29,7 +29,7 @@ export default function About() {
 
       <section className="bg-gray-50 py-24 px-6">
         <div className="max-w-7xl mx-auto space-y-8">
-          <motion.div initial={{opacity:0, y:20}} whileInView={{opacity:1, y:0}} viewport={{once:true}} className="bg-white p-10 rounded-3xl shadow-sm border-t-4 border-t-blue-500 flex items-start gap-6">
+          <motion.div initial={{opacity:0, y:20}} whileInView={{opacity:1, y:0}} viewport={{once:true}} className="bg-white p-10 rounded-3xl shadow-sm flex items-start gap-6">
             <Target className="w-12 h-12 text-blue-600 shrink-0" />
             <div>
               <h3 className="font-epilogue text-2xl font-bold text-[#001838] mb-2">Our Mission</h3>
@@ -37,7 +37,7 @@ export default function About() {
             </div>
           </motion.div>
           
-          <motion.div initial={{opacity:0, y:20}} whileInView={{opacity:1, y:0}} viewport={{once:true}} transition={{delay:0.1}} className="bg-white p-10 rounded-3xl shadow-sm border-t-4 border-t-green-500 flex items-start gap-6">
+          <motion.div initial={{opacity:0, y:20}} whileInView={{opacity:1, y:0}} viewport={{once:true}} transition={{delay:0.1}} className="bg-white p-10 rounded-3xl shadow-sm flex items-start gap-6">
             <Eye className="w-12 h-12 text-green-600 shrink-0" />
             <div>
               <h3 className="font-epilogue text-2xl font-bold text-[#001838] mb-2">Our Vision</h3>

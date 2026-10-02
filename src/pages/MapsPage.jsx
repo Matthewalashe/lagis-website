@@ -36,7 +36,7 @@ const MapsPage = () => {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           
           <div className="lg:col-span-2 space-y-8">
-            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-primary">
+            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="bg-white p-8 rounded-2xl shadow-lg">
               <h2 className="text-3xl font-epilogue font-bold text-navy mb-6">Map Preview</h2>
               <div className="grid grid-cols-2 gap-4 mb-6">
                 <img src={images.maps.satellite} alt="Satellite" className="rounded-xl object-cover h-48 w-full" />
@@ -55,7 +55,7 @@ const MapsPage = () => {
               </ul>
             </motion.div>
 
-            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }} className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-teal-500">
+            <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }} className="bg-white p-8 rounded-2xl shadow-lg">
               <h2 className="text-2xl font-epilogue font-bold text-navy mb-6">Available Layers</h2>
               <div className="flex flex-wrap gap-2">
                 {mapsData.layers.map((layer, idx) => (
@@ -68,7 +68,7 @@ const MapsPage = () => {
           </div>
 
           <div className="space-y-8">
-            <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} className="bg-white p-8 rounded-2xl shadow-lg sticky top-24 border-t-4 border-primary">
+            <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} className="bg-white p-8 rounded-2xl shadow-lg sticky top-24">
               <div className="mb-6 text-center">
                 <h3 className="text-lg text-gray-500 mb-2">Starting at</h3>
                 <div className="text-4xl font-bold text-navy">{mapsData.price}</div>
@@ -77,7 +77,7 @@ const MapsPage = () => {
                 <Download size={20} />
                 Order Data Package
               </button>
-              <div className="space-y-4 border-t border-gray-100 pt-6">
+              <div className="space-y-4 pt-6">
                 <h4 className="font-bold text-navy flex items-center gap-2"><Layers size={18} /> Formats Available</h4>
                 <div className="flex flex-wrap gap-2">
                   {mapsData.formats.map((fmt, idx) => (

@@ -105,7 +105,7 @@ const EnvironmentPage = () => {
         </section>
 
         {/* Contact Section */}
-        <section className="grid md:grid-cols-2 gap-12 border-t border-gray-200 pt-16">
+        <section className="grid md:grid-cols-2 gap-12 pt-16">
           <div>
             <h2 className="text-3xl font-bold font-epilogue mb-6">Get in Touch</h2>
             <p className="text-gray-600 mb-8">

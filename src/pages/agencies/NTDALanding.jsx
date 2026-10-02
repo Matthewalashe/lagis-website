@@ -92,7 +92,7 @@ const NTDALanding = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.2 }}
-                className="bg-light-gray p-8 rounded-2xl shadow-sm border-t-4 border-emerald-500 hover:shadow-md transition"
+                className="bg-light-gray p-8 rounded-2xl shadow-sm hover:shadow-md transition"
               >
                 <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mb-6 text-emerald-600">
                   <step.icon className="w-8 h-8" />

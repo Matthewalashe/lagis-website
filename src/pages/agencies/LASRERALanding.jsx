@@ -91,7 +91,7 @@ const LASRERALanding = () => {
               viewport={{ once: true }}
               className="relative"
             >
-              <div className="bg-light-gray p-8 rounded-3xl shadow-xl border-t-4 border-teal-500 flex flex-col items-center">
+              <div className="bg-light-gray p-8 rounded-3xl shadow-xl flex flex-col items-center">
                 <img src={images.units.lasrera.qr} alt="Verify QR Code" className="w-64 h-64 object-cover rounded-xl mb-6 shadow-md" />
                 <p className="text-lg font-bold text-navy">Point your camera to scan</p>
               </div>
@@ -129,7 +129,7 @@ const LASRERALanding = () => {
             whileInView="visible"
             viewport={{ once: true }}
             variants={fadeInUp}
-            className="max-w-2xl mx-auto bg-white p-12 rounded-3xl shadow-lg border-t-4 border-teal-500"
+            className="max-w-2xl mx-auto bg-white p-12 rounded-3xl shadow-lg"
           >
             <h2 className="text-3xl font-epilogue font-bold text-navy mb-4">Start Your Verification</h2>
             <p className="text-gray-600 mb-8">Don't take chances with your investments. Check the registry today.</p>

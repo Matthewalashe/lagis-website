@@ -28,17 +28,17 @@ export default function LASVOLanding() {
       {/* Content */}
       <section className="py-20 container mx-auto px-6">
         <div className="grid md:grid-cols-3 gap-8">
-          <motion.div initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} viewport={{once:true}} className="bg-white p-8 rounded-2xl shadow-xl shadow-sky-900/5 border-t-4 border-sky-500">
+          <motion.div initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} viewport={{once:true}} className="bg-white p-8 rounded-2xl shadow-xl shadow-sky-900/5">
             <Building className="w-12 h-12 text-sky-500 mb-6" />
             <h3 className="text-xl font-bold text-navy mb-3">Property Valuation</h3>
             <p className="text-gray-600">Accurate assessment of property values across the state for various administrative purposes.</p>
           </motion.div>
-          <motion.div initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{delay:0.1}} viewport={{once:true}} className="bg-white p-8 rounded-2xl shadow-xl shadow-sky-900/5 border-t-4 border-blue-500">
+          <motion.div initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{delay:0.1}} viewport={{once:true}} className="bg-white p-8 rounded-2xl shadow-xl shadow-sky-900/5">
             <DollarSign className="w-12 h-12 text-blue-500 mb-6" />
             <h3 className="text-xl font-bold text-navy mb-3">Land Use Charge</h3>
             <p className="text-gray-600">Providing the baseline valuations used in computing fair and equitable Land Use Charges.</p>
           </motion.div>
-          <motion.div initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{delay:0.2}} viewport={{once:true}} className="bg-white p-8 rounded-2xl shadow-xl shadow-sky-900/5 border-t-4 border-indigo-500">
+          <motion.div initial={{opacity:0,y:20}} whileInView={{opacity:1,y:0}} transition={{delay:0.2}} viewport={{once:true}} className="bg-white p-8 rounded-2xl shadow-xl shadow-sky-900/5">
             <Activity className="w-12 h-12 text-indigo-500 mb-6" />
             <h3 className="text-xl font-bold text-navy mb-3">Market Analysis</h3>
             <p className="text-gray-600">Continuous monitoring of real estate market trends to ensure up-to-date valuation matrices.</p>

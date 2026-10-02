@@ -100,7 +100,7 @@ const Portfolio = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 px-4 md:px-8 bg-white border-t border-gray-100">
+      <section className="py-20 px-4 md:px-8 bg-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="font-epilogue text-3xl md:text-4xl font-bold text-[#001838] mb-4">Let LAGIS Units Handle Your Digitization Projects</h2>
           <p className="text-lg text-[#28333d]/80 mb-8">We will handle the heavy lifting for you</p>

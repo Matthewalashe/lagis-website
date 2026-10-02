@@ -89,7 +89,7 @@ const LAMATALanding = () => {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              className="bg-light-gray rounded-3xl p-8 border-t-4 border-red-500 shadow-sm hover:shadow-md transition"
+              className="bg-light-gray rounded-3xl p-8 shadow-sm hover:shadow-md transition"
             >
               <Bus className="w-12 h-12 text-red-600 mb-6" />
               <h3 className="text-2xl font-bold text-navy mb-4">BRT System</h3>
@@ -105,7 +105,7 @@ const LAMATALanding = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
-              className="bg-light-gray rounded-3xl p-8 border-t-4 border-orange-500 shadow-sm hover:shadow-md transition"
+              className="bg-light-gray rounded-3xl p-8 shadow-sm hover:shadow-md transition"
             >
               <Train className="w-12 h-12 text-orange-600 mb-6" />
               <h3 className="text-2xl font-bold text-navy mb-4">Lagos Metro</h3>

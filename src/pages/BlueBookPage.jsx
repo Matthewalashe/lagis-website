@@ -19,7 +19,7 @@ const BlueBookPage = () => {
           <p className="text-xl text-dark-gray">{blueBookData.subtitle}</p>
         </motion.div>
 
-        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="bg-white p-8 rounded-2xl shadow-lg mb-8 border-t-4 border-primary">
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.1 }} className="bg-white p-8 rounded-2xl shadow-lg mb-8">
           <div className="flex gap-4 items-start mb-6">
             <Info className="text-primary shrink-0" size={32} />
             <p className="text-lg text-gray-700 leading-relaxed">{blueBookData.overview}</p>
@@ -27,7 +27,7 @@ const BlueBookPage = () => {
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
-          <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.2 }} className="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-teal-500">
+          <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.2 }} className="bg-white p-8 rounded-2xl shadow-lg">
             <h3 className="text-2xl font-epilogue font-bold text-navy mb-6 flex items-center gap-2">
               <Calculator className="text-teal-500" /> Calculation Steps
             </h3>
@@ -41,7 +41,7 @@ const BlueBookPage = () => {
             </div>
           </motion.div>
 
-          <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.3 }} className="bg-navy p-8 rounded-2xl shadow-lg text-white border-t-4 border-blue-400">
+          <motion.div initial={{ opacity: 0, x: 20 }} animate={{ opacity: 1, x: 0 }} transition={{ delay: 0.3 }} className="bg-navy p-8 rounded-2xl shadow-lg text-white">
             <h3 className="text-2xl font-epilogue font-bold mb-6 flex items-center gap-2">
               <FileText className="text-blue-400" /> Key Facts
             </h3>

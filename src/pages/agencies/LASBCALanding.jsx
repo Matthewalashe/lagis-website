@@ -87,7 +87,7 @@ const LASBCALanding = () => {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.2 }}
-                className="bg-light-gray p-8 rounded-2xl shadow-sm border-t-4 border-orange-500 hover:shadow-md transition"
+                className="bg-light-gray p-8 rounded-2xl shadow-sm hover:shadow-md transition"
               >
                 <div className="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-6 text-orange-600">
                   <step.icon className="w-8 h-8" />
@@ -149,7 +149,7 @@ const LASBCALanding = () => {
             whileInView="visible"
             viewport={{ once: true }}
             variants={fadeInUp}
-            className="max-w-2xl mx-auto bg-white p-12 rounded-3xl shadow-lg border-t-4 border-orange-500"
+            className="max-w-2xl mx-auto bg-white p-12 rounded-3xl shadow-lg"
           >
             <h2 className="text-3xl font-epilogue font-bold text-navy mb-4">Subscribe to Updates</h2>
             <p className="text-gray-600 mb-8">Be the first to know when we share updates. Sign up for our weekly newsletter.</p>

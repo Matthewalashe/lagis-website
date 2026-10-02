@@ -75,7 +75,7 @@ const LASVOLanding = () => {
               whileInView="visible"
               viewport={{ once: true }}
               variants={fadeInUp}
-              className="bg-light-gray rounded-3xl p-10 border-t-4 border-sky-500 shadow-sm"
+              className="bg-light-gray rounded-3xl p-10 shadow-sm"
             >
               <Calculator className="w-12 h-12 text-sky-600 mb-6" />
               <h2 className="text-3xl font-epilogue font-bold text-navy mb-4">Calculate Your Land Use Charge</h2>
@@ -90,7 +90,7 @@ const LASVOLanding = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
-              className="bg-light-gray rounded-3xl p-10 border-t-4 border-indigo-500 shadow-sm"
+              className="bg-light-gray rounded-3xl p-10 shadow-sm"
             >
               <Search className="w-12 h-12 text-indigo-600 mb-6" />
               <h2 className="text-3xl font-epilogue font-bold text-navy mb-4">Value your property. Contact a valuer</h2>
@@ -159,7 +159,7 @@ const LASVOLanding = () => {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                className="bg-white p-6 rounded-2xl shadow-sm border-t-4 border-indigo-500 hover:shadow-md transition text-center"
+                className="bg-white p-6 rounded-2xl shadow-sm hover:shadow-md transition text-center"
               >
                 <div className="w-16 h-16 bg-indigo-50 rounded-full flex items-center justify-center mx-auto mb-4 text-indigo-600">
                   <ShoppingBag className="w-8 h-8" />
