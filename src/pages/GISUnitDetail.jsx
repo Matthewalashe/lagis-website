@@ -6,8 +6,8 @@ import { gisUnits } from '@/data/siteData';
 import { unitImages, unitQRCodes, images } from '@/data/images';
 
 const GISUnitDetail = () => {
-  const { id } = useParams();
-  const unit = gisUnits.find(u => u.slug === id || u.id === id);
+  const { unitId } = useParams();
+  const unit = gisUnits.find(u => u.slug === unitId || u.id === unitId);
 
   if (!unit) {
     return (
